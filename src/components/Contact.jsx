@@ -290,7 +290,7 @@ const Contact = () => {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.4 }}
+                  transition={{ duration: 0.1, delay: 0.1 }}
                   className="flex  space-x-6 "
                 >
                   {socialLinks.map((link, index) => (
